@@ -1,6 +1,5 @@
 import React from "react";
 import Comment from "./Comment";
-import comment from "./Comment";
 
 const comments = [
     {
