@@ -8,11 +8,12 @@ import './index.css'
 // import NotificationList from "./chapter_06/NotificationList.jsx";
 // import Accommodate from "./chapter_07/Accommodate.jsx";
 import ConfirmButton from "./chapter_08/ConfirmButtons.jsx";
+import LandingPage from "./chapter_09/LandingPage.jsx";
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <ConfirmButton />
+        <LandingPage />
     </React.StrictMode>
 );
