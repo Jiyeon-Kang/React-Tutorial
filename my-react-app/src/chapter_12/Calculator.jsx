@@ -5,7 +5,7 @@ function BoilingVerdict(props) {
     if (props.celsius >= 100) {
         return <p>The Water is boiling.</p>;
     }
-    return <p>he Water isn&apos;t boiling.</p>;
+    return <p>The Water isn&apos;t boiling.</p>;
 }
 
 function toCelsius(fahrenheit) {
