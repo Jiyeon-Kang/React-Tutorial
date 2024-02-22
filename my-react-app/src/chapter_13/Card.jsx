@@ -12,7 +12,7 @@ function Card(props) {
                 backgroundColor: backgroundColor || "white",
             }}
         >
-            {title && <h1>{title}</h1>}
+            {title && <h1>{title}</h1>} {/*if title is true(If title exists), show<h1>{title}</h1>*/}
             {children}
         </div>
     );
