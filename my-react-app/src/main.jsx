@@ -12,12 +12,13 @@ import './index.css'
 // import AttendeanceBook from "./chapter_10/AttendeanceBook.jsx";
 // import SignUp from "./chapter_11/SignUp.jsx";
 // import Calculator from "./chapter_12/Calculator.jsx";
-import ProfileCard from "./chapter_13/ProfileCard.jsx";
+// import ProfileCard from "./chapter_13/ProfileCard.jsx";
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <ProfileCard/>
+        <DarkOrLight/>
     </React.StrictMode>
 );
