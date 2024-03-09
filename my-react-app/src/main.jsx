@@ -13,12 +13,13 @@ import './index.css'
 // import SignUp from "./chapter_11/SignUp.jsx";
 // import Calculator from "./chapter_12/Calculator.jsx";
 // import ProfileCard from "./chapter_13/ProfileCard.jsx";
-import DarkOrLight from './chapter_14/DarkOrLight';
+// import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Blocks';
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <DarkOrLight/>
+        <Blocks/>
     </React.StrictMode>
 );
